@@ -65,7 +65,7 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-          - { os: windows, runner: 8core-32gb-windows-latest, target: aarch64 }
+          - { os: windows, runner: windows-11-arm, target: aarch64 }
 
     steps:
       - uses: actions/checkout@v4
